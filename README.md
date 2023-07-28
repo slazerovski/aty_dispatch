@@ -24,13 +24,16 @@ Join our Discord
 
 ### Usage 
 
-* TriggerEvent
+#TriggerEvent
 
-TriggerEvent(“aty_dispatch:SendDispatch”, title, code, blipSprite, jobs)
-Export
+*TriggerEvent(“aty_dispatch:SendDispatch”, title, code, blipSprite, jobs)
 
-exports[“aty_dispatch”]:SendDispatch(title, code, blipSprite, jobs)
-Examples
+#Export
 
-exports[“aty_dispatch”]:SendDispatch(“House Robbery”, “10-26”, 40, {“police”, “sheriff”})
-TriggerEvent(“aty_dispatch:SendDispatch”, “House Robbery”, “10-26”, 40, {“police”, “sheriff”})
+*exports[“aty_dispatch”]:SendDispatch(title, code, blipSprite, jobs)
+
+#Examples
+
+*exports[“aty_dispatch”]:SendDispatch(“House Robbery”, “10-26”, 40, {“police”, “sheriff”})
+
+*TriggerEvent(“aty_dispatch:SendDispatch”, “House Robbery”, “10-26”, 40, {“police”, “sheriff”})
