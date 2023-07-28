@@ -21,3 +21,16 @@ Join our Discord
 * Time for blip to remove after a dispatch
 ### BlipRemoveTime
 * Weapons that wont give an alert
+
+### Usage 
+
+* TriggerEvent
+
+TriggerEvent(“aty_dispatch:SendDispatch”, title, code, blipSprite, jobs)
+Export
+
+exports[“aty_dispatch”]:SendDispatch(title, code, blipSprite, jobs)
+Examples
+
+exports[“aty_dispatch”]:SendDispatch(“House Robbery”, “10-26”, 40, {“police”, “sheriff”})
+TriggerEvent(“aty_dispatch:SendDispatch”, “House Robbery”, “10-26”, 40, {“police”, “sheriff”})
